@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.navbar a{
+    /* text-decoration: none; */
+    color: black;
+}
+#logo{
+    height: 25px;
+}
+.leftnav{
+    margin: auto 80px;
+    display: flex;
+}
+#leftlink{
+    margin-left: 20px;
+    display: flex;
+    list-style: none;
+    padding-top: 3px;
+}
+#leftlink a{
+    text-decoration: none;
+    margin: auto 10px;
+}
+.rightnav{
+    margin: auto 60px;
+    display: flex;
+}
+#rightlink{
+    display: flex;
+    list-style: none;
+    padding-top: 3px;
+}
+#rightlink a{
+    text-decoration: none;
+}
+#rightlink li{
+    margin-right: 20px;
+}
+#searchlogo{
+    height: 20px;
+}
+#loginlogo{
+    height: 20px;
+}
+#shoplogo{
+    height: 20px;
+}
+main{
+    display: flex;
+    height: 540px;
+    /* background-color: beige; */
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600');
+}
+.front{
+    margin: auto 100px;
+}
+.front h1{
+    margin-bottom: 20px;
+}
+.front p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#but{
+    display: flex;
+    height: 40px;
+}
+#but button{
+    margin-right: 30px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(84, 117, 236);
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+#but h3{
+    height: 40px;
+    padding-top: 8px;
+    justify-content: center;
+    margin: auto auto;
+}
+.slider{
+    height: 70px;
+}
+.options{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.img {
+    text-align: center;
+    margin: 20px;
+    color: rgb(117, 160, 254);
+}
+.img img{
+    height: 30px;
+}
+.tech{
+    display: flex;
+    justify-content: 
+    space-around;
+    margin: 70px;
+    margin-top: 0px;
+}
+.obj img{
+    height: 146px;
+    margin-bottom: 5px;
+}
+.new{
+    background-color: rgb(255, 221, 0);
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.obj h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.obj p{
+    padding-right: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.more{
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+}
+.xboxads{
+    display: flex;
+    height: 540px;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-Hero-Xbox-Series-S:VP4-1260x600');
+    margin: 70px;
+}
+.business{
+    margin: 70px;
+    height: 400px;
+}
+.ele{
+    display: flex;
+}
+.bussobj{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.business h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.bussobj img{
+    height: 140px;
+}
+.txt{
+    margin-top: 10px;
+    padding-right: 10px;
+    /* margin-left: 10px; */
+}
+.txt h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.txt p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    margin-bottom: 90px;
+}
+.left ul{
+    display: flex;
+    list-style: none;
+    margin-left: 70px;
+}
+.socialmedia li img{
+    height: 25px;
+    margin-left: 25px;
+}
+.right{
+    margin-right: 35px;
+}
+.right button{
+    width: 133px;
+    height: 40px;
+    font-size: 16px;
+}
+footer{
+    background-color: rgba(237, 237, 237, 0.829);
+    padding-bottom: 10px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    margin-bottom: 0px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.cont{
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+.cont h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.down{
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    color:rgb(117, 117, 117)
+}
+.left img{
+    height: 25px;
+    margin-right: 10px;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    margin-right: 70px;
+}
+.right ul li{
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
